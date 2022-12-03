@@ -1,8 +1,7 @@
 # Create a Jekyll Container from a Ruby Apline image
 
 # At a minimum, use Ruby 2.5 or later
-
-From ruby:2.7-alpine3.15
+FROM ruby:2.7-alpine3.15
 
 # Add Jekyll dependencies
 RUN apk update 
